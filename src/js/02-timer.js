@@ -74,7 +74,7 @@ start.disabled = true;
   element.textContent = String(value).padStart(2, '0')
   }
 
-document.body.style.boxShadow = '0 0 15px #212121';
+document.body.style.boxShadow = '0 0 10px #212121';
 document.body.style.backgroundColor = '#eee';
 document.body.style.width = '800px';
 document.body.style.padding = '30px';
@@ -85,7 +85,5 @@ deltaTime.style.display ='flex';
 deltaTime.style.justifyContent = 'space-around'
 deltaTime.style.flexFlow = 'row nowrap';
 deltaTime.style.textAlign ='centr';
-deltaTime.style.margin = '30px';
 deltaTime.style.fontSize ='30px';
 inputDate.style.fontSize ='30px';
-inputDate.style.padding = '10px';
